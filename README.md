@@ -67,7 +67,7 @@ In this project, you’ll design a fully functional, 1-2 page website using Boot
 ## :nine: <span id="footer">Footer</span>
 (https://github.com/yourusername/yourrepository/images/yourimage.png)
 
-## :alien: <span id="authors">Authors</span>
+## :sparkles: <span id="authors">Authors</span>
 
 **Jaylen Perez**
 - Github: [@Jaylenperez](https://github.com/Jaylenperez)
