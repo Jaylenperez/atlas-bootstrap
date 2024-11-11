@@ -1,0 +1,37 @@
+:root {
+    --color-cream: #EEEDE7;
+    --color-brown: #433F37;
+    --color-plum: #412234;
+    --color-blue: #0FA3B1;
+
+    --radius-primary: 1rem;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:active {
+    background-color: var(--color-brown);
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 390px;
+    max-height: 200px;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
