@@ -17,15 +17,15 @@
             <div>
                 <!-- Hamburger Menu -->
                 <div></div>
-                <!-- Angus Art Ceramics Header -->
+                <!-- Business Title -->
                 <div>
-                    <h1>Angus Art Ceramics</h1>
+                    <h1 class="header-title text-center">Angus Art Ceramics</h1>
                 </div>
                 <!-- Action Bar (Heart, User, and Cart) -->
                 <div>
-                    <img src="images/likes.png" alt="User Profile">
-                    <img src="images/user.png" alt="Like">
-                    <img src="images/cart.png" alt="Shopping Cart">
+                    <img src="images/like.png" alt="Favorite" class="action-bar">
+                    <img src="images/user.png" alt="User" class="action-bar">
+                    <img src="images/shopping.png" alt="Shopping Cart" class="action-bar">
                 </div>
             </div>
             <div>
@@ -44,7 +44,7 @@
         <div>
             <img src="images/banner.jpg" class="w-100" style="height: 400px; object-fit: cover;">
         </div>
-        <!-- Multiple Item Carousel (Featured Items) -->
+        <!-- Featured Items Header -->
         <h2>Featured Items</h2>
     </header>
     <main>
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- 2nd Carousel SLide -->
+                    <!-- 2nd Carousel Slide -->
                     <div class="carousel-item">
                         <div class="cards-wrapper">
                             <!-- Card 5 -->
@@ -137,10 +137,126 @@
                 </a>
             </div>
         </section>
+
+        <!-- About Us Section - Section with aside -->
+        <section class="aboutus">
+            <h2>About Us</h2>
+            <div class="container my-5">
+                <aside class="row align-items-center">
+                    <!-- Image Column -->
+                    <div class="col-md-6">
+                        <img src="images/about.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Review/Quote Section - Single Item Carousel -->
+        <section>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner">
+                    <!-- First Card-->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!-- Customer Image -->
+                                <img src="images/quote.jpg" class="d-block w-100" alt="Customer">
+                            </div>
+                            <div class="col-md-6">
+                                <!-- Customer Quote -->
+                                <p class="carousel-text">This is the first quote</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second Card -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!-- Customer Image -->
+                                <img src="images/quote.jpg" class="d-block w-100" alt="Customer">
+                            </div>
+                            <div class="col-md-6">
+                                <!-- Customer Quote -->
+                                <p class="carousel-text">This is the second quote</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section - Free Section -->
+        <section>
+                <!-- Contact Header -->
+                <div>
+                    <h2>Contact Us</h2>
+                </div>
+                <!-- Full Page Container -->
+                <div class="contact1">
+                    <!-- Container for contact info & form -->
+                    <div class="container-contact1">
+                        <!-- Email, Phone, and Address -->
+                        <div class="contact1-info">
+                            <!-- Email Card -->
+                            <div>
+                                <img src="images/email.png" alt="Customer" class="contact-icon">
+                                <p>abc@email.com</p>
+                            </div>
+                            <!-- Phone Card -->
+                            <div>
+                                <img src="images/phone.png" alt="Customer" class="contact-icon">
+                                <p>123-456-6789</p>
+                            </div>
+                            <!-- Address Card -->
+                            <div>
+                                <img src="images/location.png" alt="Customer" class="contact-icon">
+                                <p>1234 S Address, Tulsa, OK 74136</p>
+                            </div>
+                        </div>
+                        <!-- Contact Form -->
+                        <div class="contact1-form">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Name</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Your message:</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        
         <!-- JavaScript dependencies -->
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
         <script type="text/javascript"src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-light py-3">
+        <section class="container text-center">
+            <!-- Social Media Icons -->
+            <div class="d-felx justify-content-center gap-3 mb-3">
+                <img src="images/facebook.png" alt="Facebook Icon" class="footer-icon">
+                <img src="images/instagram.png" alt="Instagram Icon" class="footer-icon">
+                <img src="images/twitter.png" alt="Twitter Icon" class="footer-icon">
+            </div>
+            <!-- Copyright -->
+            <div>
+                <p class="footer-text text-center mb-0">© 2024</p>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
