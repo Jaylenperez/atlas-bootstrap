@@ -202,51 +202,55 @@
 
         <!-- Contact Section - Free Section -->
         <section>
-                <!-- Contact Header -->
-                <div>
-                    <h2>Contact Us</h2>
-                </div>
-                <!-- Full Page Container -->
-                <div class="contact1">
-                    <!-- Container for contact info & form -->
-                    <div class="container-contact1">
-                        <!-- Email, Phone, and Address -->
+            <!-- Contact Header -->
+            <div>
+                <h2>Contact Us</h2>
+            </div>
+            <!-- Full Page Container -->
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-md-5 mb-4">
+                        <!-- Contact Info -->
                         <div class="contact1-info">
                             <!-- Email Card -->
-                            <div>
-                                <img src="images/email.png" alt="Customer" class="contact-icon">
-                                <p>abc@email.com</p>
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="images/email.png" alt="Customer" class="contact-icon me-3">
+                                <p class="mb-0">abc@email.com</p>
                             </div>
                             <!-- Phone Card -->
-                            <div>
-                                <img src="images/phone.png" alt="Customer" class="contact-icon">
-                                <p>123-456-6789</p>
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="images/phone.png" alt="Customer" class="contact-icon me-3">
+                                <p class="mb-0">123-456-6789</p>
                             </div>
                             <!-- Address Card -->
-                            <div>
-                                <img src="images/location.png" alt="Customer" class="contact-icon">
-                                <p>1234 S Address, Tulsa, OK 74136</p>
+                            <div class="d-flex align-items-center">
+                                <img src="images/location.png" alt="Customer" class="contact-icon me-3">
+                                <p class="mb-0">1234 S Address, Tulsa, OK 74136</p>
                             </div>
                         </div>
                         <!-- Contact Form -->
-                        <div class="contact1-form">
-                            <form>
-                                <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Name</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Your message:</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                            </form>
+                        <div class="col-md-7">
+                            <div class="contact1-form">
+                                <form>
+                                    <div class="form-group mb-3">
+                                        <label for="contactName">Name</label>
+                                        <input type="text" class="form-control" id="contactName" placeholder="Your Name">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="contactEmail">Email address</label>
+                                        <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="contactMessage">Your message:</label>
+                                        <textarea class="form-control" id="contactMessage" rows="3"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
         
         <!-- JavaScript dependencies -->
