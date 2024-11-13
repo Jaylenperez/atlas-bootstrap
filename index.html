@@ -228,8 +228,8 @@
                           Sort by:
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Price: Low to high</a>
-                            <a class="dropdown-item" href="#">Price: High to Low</a>
+                            <a class="dropdown-item" href="#" data-sort="low-to-high">Price: Low to high</a>
+                            <a class="dropdown-item" href="#" data-sort="high-to-low">Price: High to Low</a>
                             <a class="dropdown-item" href="#">Best Sellers</a>
                         </div>
                       </div>
@@ -237,18 +237,13 @@
             </div>
 
             <!-- Event Listener for drop down items-->
-            <script>
-                function updateDropdownText(selectedItem) {
-                    var button = document.getElementById('dropdownMenuButton');
-                    button.textContent = selectedItem.textContent;
-                }
-            </script>
+            <script></script>
             <!-- Shop Content -->
             <div>
                 <div>
                     <div class="d-flex justify-content-center gap-3 flex-wrap">
                         <!-- Card 1 -->
-                        <div class="card mx-2">
+                        <div class="card mx-2" data-price="100">
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
@@ -256,7 +251,7 @@
                             </div>
                         </div>
                         <!-- Card 2 -->
-                        <div class="card mx-2">
+                        <div class="card mx-2" data-price="100">
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
@@ -264,7 +259,7 @@
                             </div>
                         </div>
                         <!-- Card 3 -->
-                        <div class="card mx-2">
+                        <div class="card mx-2" data-price="100">
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
@@ -272,7 +267,7 @@
                             </div>
                         </div>
                         <!-- Card 4 -->
-                        <div class="card mx-2">
+                        <div class="card mx-2" data-price="100">
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
@@ -283,7 +278,7 @@
                     <!-- 2nd row?? -->
                     <div class="d-flex justify-content-center gap-3 flex-wrap">
                         <!-- Card 1 -->
-                        <div class="card mx-2">
+                        <div class="card mx-2" data-price="50">
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
@@ -291,7 +286,7 @@
                             </div>
                         </div>
                         <!-- Card 2 -->
-                        <div class="card mx-2">
+                        <div class="card mx-2" data-price="50">
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
@@ -299,7 +294,7 @@
                             </div>
                         </div>
                         <!-- Card 3 -->
-                        <div class="card mx-2">
+                        <div class="card mx-2" data-price="50">
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
@@ -307,7 +302,7 @@
                             </div>
                         </div>
                         <!-- Card 4 -->
-                        <div class="card mx-2">
+                        <div class="card mx-2" data-price="50">
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
@@ -318,7 +313,7 @@
                     <!-- 3rd row -->
                     <div class="d-flex justify-content-center gap-3 flex-wrap">
                         <!-- Card 1 -->
-                        <div class="card mx-2">
+                        <div class="card mx-2" data-price="25">
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
@@ -326,7 +321,7 @@
                             </div>
                         </div>
                         <!-- Card 2 -->
-                        <div class="card mx-2">
+                        <div class="card mx-2" data-price="25">
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
@@ -334,7 +329,7 @@
                             </div>
                         </div>
                         <!-- Card 3 -->
-                        <div class="card mx-2">
+                        <div class="card mx-2" data-price="25">
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
@@ -342,7 +337,7 @@
                             </div>
                         </div>
                         <!-- Card 4 -->
-                        <div class="card mx-2">
+                        <div class="card mx-2" data-price="25">
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
