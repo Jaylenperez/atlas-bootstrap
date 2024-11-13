@@ -13,7 +13,7 @@
 <body>
     <header>
         <!-- Header Section -->
-        <section class="container py-3">
+        <section class="container py-3" id="home">
             <div class="row">
                 <!-- Hamburger Menu -->
                 <div class="col-4 d-flex justify-content-center align-items-center">
@@ -37,16 +37,16 @@
                 <nav class="col-12">
                     <ul class="nav justify-content-center mt-3">
                         <li class="nav-item">
-                            <a class="nav-link" href="home">HOME</a>
+                            <a class="nav-link" href="#home">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about">ABOUT</a>
+                            <a class="nav-link" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shop">SHOP</a>
+                            <a class="nav-link" href="#shop">SHOP</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact">CONTACT</a>
+                            <a class="nav-link" href="#contact">CONTACT</a>
                         </li>
                     </ul>
                 </nav>
@@ -154,7 +154,7 @@
         </section>
 
         <!-- About Us Section - Section with aside -->
-        <section class="aboutus">
+        <section class="aboutus" id="about">
             <div class="row">
                 <div class="col-11 ml-auto">
                     <h2 class="py-2">About Us</h2>
@@ -213,7 +213,7 @@
         </section>
 
         <!-- Shop Section -->
-        <section>
+        <section id="shop">
             <!-- Shop Heading -->
             <div class="row">
                 <div class="col-11 ml-auto">
@@ -235,6 +235,14 @@
                       </div>
                 </div>
             </div>
+
+            <!-- Event Listener for drop down items-->
+            <script>
+                function updateDropdownText(selectedItem) {
+                    var button = document.getElementById('dropdownMenuButton');
+                    button.textContent = selectedItem.textContent;
+                }
+            </script>
             <!-- Shop Content -->
             <div>
                 <div>
@@ -279,7 +287,7 @@
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
-                                <p class="card-text text-center">$100</p>
+                                <p class="card-text text-center">$50</p>
                             </div>
                         </div>
                         <!-- Card 2 -->
@@ -287,7 +295,7 @@
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
-                                <p class="card-text text-center">$100</p>
+                                <p class="card-text text-center">$50</p>
                             </div>
                         </div>
                         <!-- Card 3 -->
@@ -295,7 +303,7 @@
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
-                                <p class="card-text text-center">$100</p>
+                                <p class="card-text text-center">$50</p>
                             </div>
                         </div>
                         <!-- Card 4 -->
@@ -303,7 +311,7 @@
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
-                                <p class="card-text text-center">$100</p>
+                                <p class="card-text text-center">$50</p>
                             </div>
                         </div>
                     </div>
@@ -314,7 +322,7 @@
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
-                                <p class="card-text text-center">$100</p>
+                                <p class="card-text text-center">$25</p>
                             </div>
                         </div>
                         <!-- Card 2 -->
@@ -322,7 +330,7 @@
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
-                                <p class="card-text text-center">$100</p>
+                                <p class="card-text text-center">$25</p>
                             </div>
                         </div>
                         <!-- Card 3 -->
@@ -330,7 +338,7 @@
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
-                                <p class="card-text text-center">$100</p>
+                                <p class="card-text text-center">$25</p>
                             </div>
                         </div>
                         <!-- Card 4 -->
@@ -338,7 +346,7 @@
                             <img src="images/card.jpg" style="width: 200px; height: 200px; border: 1.5px solid #433F37;" class="card-img-shop" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Card title</h5>
-                                <p class="card-text text-center">$100</p>
+                                <p class="card-text text-center">$25</p>
                             </div>
                         </div>
                     </div>
@@ -347,7 +355,7 @@
         </section>
 
         <!-- Contact Section - Free Section -->
-        <section>
+        <section id="contact">
             <!-- Contact Header -->
             <div class="row">
                 <div class="col-11 ml-auto">
