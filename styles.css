@@ -22,7 +22,7 @@ body {
     gap: 30px;
 }
 
-.card img {
+.card-img-top {
     max-width: 250px;
     max-height: 250px;
     border: 1.5px solid #433F37;
@@ -46,7 +46,7 @@ body {
   transform: translateY(-50%);
 }
 
-.aboutus img {
+.aboutus-img {
     width: 280px;
     height: 450px;
 }
@@ -60,6 +60,12 @@ body {
 .quote-img {
     width: 130px;
     height: 130px;
+}
+
+.card-img-shop {
+    max-width: 200px;
+    max-height: 200px;
+    border: 1.5px solid #433F37;
 }
 
 .contact-icon {
@@ -89,4 +95,9 @@ body {
 .action-bar {
     width: 20px;
     height: 20px;
+}
+
+footer {
+    background-color: #433F37;
+    color: #EEEDE7;
 }
