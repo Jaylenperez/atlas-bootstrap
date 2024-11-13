@@ -16,12 +16,6 @@ body {
     color: #772D8B;
 }
 
-.card-img-top {
-    max-width: 250px;
-    max-height: 250px;
-    border: 1.5px solid #433F37;
-}
-
 .card-body {
     background-color: #EEEDE7;
 }
