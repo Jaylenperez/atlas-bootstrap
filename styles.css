@@ -19,11 +19,17 @@ body {
 .cards-wrapper {
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
 
 .card img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 250px;
+    border: 1.5px solid #433F37;
+}
+
+.card-body {
+    background-color: #EEEDE7;
 }
 
 .carousel-inner {
@@ -41,8 +47,14 @@ body {
 }
 
 .aboutus img {
-    width: 300px;
+    width: 280px;
+    height: 450px;
+}
+
+.about-text {
+    width: 700px;
     height: 500px;
+    font-size: 20px;
 }
 
 .quote-img {
@@ -55,6 +67,9 @@ body {
     height: 50px;
 }
 
+.custom-margin {
+    margin-right: 15px;
+}
 .footer-icon {
     width: 40px;
     height: 40px;
