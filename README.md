@@ -9,7 +9,7 @@
         <br>
         :floppy_disk: <a href="#requirements">Requirements</a>
         <br>
-        :computer: <a href="#installation">Installation</a>
+        :computer: <a href="#usage">Usage</a>
         <br>
         :one: <a href="#header">Header</a>
         <br>
@@ -38,10 +38,9 @@ In this project, you’ll design a fully functional, 1-2 page website using Boot
 * Your styles.css must be as small as you can - You should have no layout/structural CSS, only Bootstrap.
 * You cannot remake Smile School. This is an opportunity for you to be creative and make something personal to you. My advice is to focus on a hobby of yours.
 
-## :computer: <span id="installation">Installation</span>
+## :computer: <span id="usage">Usage</span>
 **How to access the application locally**
-
-(https://jaylenperez.github.io/REPO/FOLDER/FILE.html)
+`git clone https://github.com/jaylenperez/atlas-bootstrap.git`
 
 ## :one: <span id="header">Header</span>
 ![Header](/images/task1-header.png)
