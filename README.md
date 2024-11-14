@@ -47,18 +47,32 @@ In this project, you’ll design a fully functional, 1-2 page website using Boot
 ![Header](/images/task1-header.png)
 
 ## :two: <span id="banner">Banner</span>
+![Banner](/images/task2-banner.png)
+
 
 ## :three: <span id="single-carousel">Single Item Carousel</span>
+![Single](/images/task3-singlecarousel.png)
+
 
 ## :four: <span id="multi-carousel">Multiple Item Carousel</span>
+![multi](/images/task4-multicarousel.png)
+
 
 ## :five: <span id="drop-down">Drop Down Menus</span>
+![Drop Down](/images/task5-dropdown.png)
+
 
 ## :six: <span id="aside">Section with an Aside</span>
+![Aside](/images/task6-aside.png)
+
 
 ## :seven: <span id="free">Free Section</span>
+![Free](/images/task7-free.png)
+
 
 ## :nine: <span id="footer">Footer</span>
+![Footer](/images/task8-footer.png)
+
 
 ## :sparkles: <span id="authors">Authors</span>
 
