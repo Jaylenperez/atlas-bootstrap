@@ -44,28 +44,21 @@ In this project, you’ll design a fully functional, 1-2 page website using Boot
 (https://jaylenperez.github.io/REPO/FOLDER/FILE.html)
 
 ## :one: <span id="header">Header</span>
-(https://github.com/yourusername/yourrepository/images/yourimage.png)
+(https://github.com/images/task1-header.png)
 
 ## :two: <span id="banner">Banner</span>
-(https://github.com/yourusername/yourrepository/images/yourimage.png)
 
 ## :three: <span id="single-carousel">Single Item Carousel</span>
-(https://github.com/yourusername/yourrepository/images/yourimage.png)
 
 ## :four: <span id="multi-carousel">Multiple Item Carousel</span>
-(https://github.com/yourusername/yourrepository/images/yourimage.png)
 
 ## :five: <span id="drop-down">Drop Down Menus</span>
-(https://github.com/yourusername/yourrepository/images/yourimage.png)
 
 ## :six: <span id="aside">Section with an Aside</span>
-(https://github.com/yourusername/yourrepository/images/yourimage.png)
 
 ## :seven: <span id="free">Free Section</span>
-(https://github.com/yourusername/yourrepository/images/yourimage.png)
 
 ## :nine: <span id="footer">Footer</span>
-(https://github.com/yourusername/yourrepository/images/yourimage.png)
 
 ## :sparkles: <span id="authors">Authors</span>
 
