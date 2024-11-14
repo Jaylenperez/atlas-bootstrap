@@ -24,6 +24,32 @@ body {
     color: #772D8B;
 }
 
+/* HAMBURGER MENU MOBILE */
+#hamburger {
+    display: none;
+}
+
+#burger {
+    display: none;
+}
+
+/* Only display hamburger on small screens */
+@media (max-width: 768px) {
+    #burger {
+        display: block;
+    }
+
+    .hamburger-menu input[type="checkbox"]:checked ~ .nav {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 .card-body {
     background-color: #EEEDE7;
 }
