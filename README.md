@@ -41,6 +41,9 @@ In this project, you’ll design a fully functional, 1-2 page website using Boot
 ## :computer: <span id="usage">Usage</span>
 `git clone https://github.com/jaylenperez/atlas-bootstrap.git`
 
+**Github pages link**
+`https://jaylenperez.github.io/atlas-bootstrap/`
+
 ## :one: <span id="header">Header</span>
 ![Header](/images/task1-header.png)
 
