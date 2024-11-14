@@ -39,7 +39,6 @@ In this project, you’ll design a fully functional, 1-2 page website using Boot
 * You cannot remake Smile School. This is an opportunity for you to be creative and make something personal to you. My advice is to focus on a hobby of yours.
 
 ## :computer: <span id="usage">Usage</span>
-**How to access the application locally**
 `git clone https://github.com/jaylenperez/atlas-bootstrap.git`
 
 ## :one: <span id="header">Header</span>
