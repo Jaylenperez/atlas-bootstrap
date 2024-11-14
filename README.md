@@ -44,7 +44,7 @@ In this project, you’ll design a fully functional, 1-2 page website using Boot
 (https://jaylenperez.github.io/REPO/FOLDER/FILE.html)
 
 ## :one: <span id="header">Header</span>
-(https://github.com/images/task1-header.png)
+![alt text](http://images/task1-header.png)
 
 ## :two: <span id="banner">Banner</span>
 
